@@ -17,7 +17,7 @@ const Header = () => {
             <NavLink to={'/'}><img src={assets.logo} alt="" className="w-25 sm:w-[150px]" /></NavLink>
         </div>
         {/* ---------------------links--------------------------------- */}
-        <ul className="hidden sm:flex text-white gap-9 text-sm">
+        <ul className="hidden sm:flex text-white gap-4 text-[12px]">
             <li><NavLink to={'/'}>
             <p>Home</p>
             <hr  className=" w-2/2 h-[3px] border-none bg-[#1AA090] mt-1 hidden"/>
@@ -51,8 +51,8 @@ const Header = () => {
         </ul>
         {/* -----------------------login_signup_links----------------------- */}
         <div className="text-white flex gap-2 text-xs sm:text-sm">
-            <button className="py-2 px-7 ease-in duration-600 hover:bg-[#1AA090] border border-[#1AA090] text-[#ffff]  "><Link to={'/Login'}>Login</Link></button>
-            <button className="py-2 px-7 bg-[#1AA090] ease-in duration-600 hover:bg-transparent border border-[#1AA090] "><Link to={'/Signup'}>Signup</Link></button>
+            <button className="sm:py-2 py-1 px-2 sm:px-7 ease-in duration-600 hover:bg-[#1AA090] border border-[#1AA090] text-[#ffff]  "><Link to={'/Login'}>Login</Link></button>
+            <button className="sm:py-2 py-1 px-2 sm:px-7 bg-[#1AA090] ease-in duration-600 hover:bg-transparent border border-[#1AA090] "><Link to={'/Signup'}>Signup</Link></button>
             {/* -------------------menu_bar_icon_close_icon------------------- */}
         <div className=" text-[#ffff]  text-3xl sm:hidden ">
           {show ? <IoMdClose className="cursor-pointer" onClick={()=>setShow(!show)}/> : <CiMenuFries  className="cursor-pointer" onClick={()=>setShow(!show)}/> }
