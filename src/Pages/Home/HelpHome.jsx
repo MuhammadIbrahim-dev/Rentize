@@ -7,8 +7,8 @@ const HelpHome = () => {
     <div className='px-3 sm:px-[5vw] md:px-[7vw] lg:px-[9vw] sm:h-[400px] flex flex-wrap  sm:justify-between'>
       {/*-------------------picture__side---------------- */}
       <div className=' sm:w-[40%] gap-2 flex h-[400px]'>
-        <img src={assets.Home_H_1} className='' alt="" />
-        <img src={assets.Home_H_2} className='' alt="" />
+        <img src={assets.Home_H_1}  className='w-[50%]' alt="" />
+        <img src={assets.Home_H_2} className='w-[50%]' alt="" />
       </div>
       {/* ----------contentside--------------------- */}
       <div className='sm:w-[50%] sm:h-[400px] flex justify-center align-center items-center '>

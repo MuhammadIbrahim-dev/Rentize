@@ -14,7 +14,7 @@ const Poster = () => {
             <p className='text-xs text-[#D6D6D6] pt-4 sm:pt-3 w-full '>Diam vitae, nec mattis lectus quam pretium amet facilisis. Urna, massa aliqua dui pellentesque. Ac, gravida in eget non amet eget purus non.</p>
             
              {/* ---------------------------search__bar------------------------- */}
-        <div className='flex justify-between text-center gap-[2px] sm:gap-[47px]  items-center bg-[#ffff] mt-7 sm:mt-3 sm:ml-[62%]'>
+        <div className='flex justify-between text-center gap-[1px] sm:gap-[47px]  items-center bg-[#ffff] mt-7 sm:mt-3 sm:ml-[62%]'>
           <div className='p-1 sm:p-3'>
             <p className='flex text-center items-center text-[9px] sm:text-xs text-[#858585] cursor-pointer '>Purpose <span><IoIosArrowForward className=' cursor-pointer text-[#1AA090] rotate-90 ml-1'/></span></p>
             <div className='text-[#121B25] font-semibold text-xs sm:text-sm'><p>Buy</p></div>
@@ -29,7 +29,7 @@ const Poster = () => {
             <div className='text-[#121B25] font-semibold text-xs sm:text-sm'><p>Industrial,Home</p></div>
           </div>
           </div>
-          <button className='py-2 sm:py-4 px-4 sm:px-6 bg-[#1AA090] m-1 text-[#ffff]'>Search</button>
+          <button className='py-1 sm:py-4 px-4 sm:px-4 bg-[#1AA090] m-1 text-[#ffff]'>Search</button>
         </div>
         </div>
         </div>
